@@ -19,7 +19,7 @@
     </td>
     <td align="center" width="50%">
       <strong>🛠️ Herramientas</strong><br><br>
-      <img src="https://skillicons.dev/icons?i=git,nodejs,vscode" /><br><br>
+      <img src="https://skillicons.dev/icons?i=git,nodejs,vscode,npm,bash" /><br><br>
     </td>
   </tr>
 </table><br>
