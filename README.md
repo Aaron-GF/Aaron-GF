@@ -36,5 +36,12 @@
 ## <img src="./assets/quote-red.gif" width ="25"><b> Citas random</b>
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)<br><br>
 
-Hecho con 💚 por [@Aaron-GF](https://github.com/Aaron-GF)
-<img src="./assets/bubble.gif" width ="50">
+<p align="center">
+  Hecho con 💚 por <a href="https://github.com/Aaron-GF">@Aaron-GF</a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Aaron-GF/Aaron-GF/main/assets/bubble.gif" alt="Bubble animation" width="200" />
+</p>
+
+
