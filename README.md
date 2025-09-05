@@ -9,7 +9,7 @@
     </td>
     <td align="center" width="50%">
       <strong>⚛️ Frameworks y librerías</strong><br><br>
-      <img src="https://skillicons.dev/icons?i=react,tailwind" /><br><br>
+      <img src="https://skillicons.dev/icons?i=react,tailwind,redux" /><br><br>
     </td>
   </tr>
   <tr>
