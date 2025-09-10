@@ -9,7 +9,7 @@
     </td>
     <td align="center" width="50%">
       <strong>⚛️ Frameworks y librerías</strong><br><br>
-      <img src="https://skillicons.dev/icons?i=react,tailwind,redux" /><br><br>
+      <img src="https://skillicons.dev/icons?i=react,tailwind,redux,nextjs" /><br><br>
     </td>
   </tr>
   <tr>
@@ -19,7 +19,7 @@
     </td>
     <td align="center" width="50%">
       <strong>🛠️ Herramientas</strong><br><br>
-      <img src="https://skillicons.dev/icons?i=git,nodejs,vscode,npm,bash" /><br><br>
+      <img src="https://skillicons.dev/icons?i=git,nodejs,vscode,npm,bash,vite" /><br><br>
     </td>
   </tr>
 </table><br>
