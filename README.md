@@ -5,7 +5,7 @@
   <tr>
     <td align="center" width="50%">
       <strong>🌐 Lenguajes</strong><br><br>
-      <img src="https://skillicons.dev/icons?i=html,css,js&perline=5" /><br><br>
+      <img src="https://skillicons.dev/icons?i=html,css,js,ts&perline=5" /><br><br>
     </td>
     <td align="center" width="50%">
       <strong>⚛️ Frameworks y librerías</strong><br><br>
