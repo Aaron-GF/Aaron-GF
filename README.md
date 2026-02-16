@@ -4,6 +4,7 @@
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aarongarcia567@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white)](https://portfolio-dev-web-aaron-gf.vercel.app/)
 [![Codewars](https://www.codewars.com/users/Knifeman_/badges/large)](https://www.codewars.com/users/Knifeman_)
+[![Stars Total](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=Stars&query=$.count&url=https://github-readme-stats-badges.vercel.app/api/github/stars?user=Aaron-GF)](https://github.com/Aaron-GF)
 <br><br>
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Tecnologías y herramientas</b>
