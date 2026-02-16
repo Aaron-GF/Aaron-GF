@@ -1,11 +1,17 @@
-![Header](github-header-banner.png)<br>
+![Header](github-header-banner.png)<br><br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaron-garcia-fernandez)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aarongarcia567@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white)](https://portfolio-dev-web-aaron-gf.vercel.app/)
+[![Codewars](https://www.codewars.com/users/Knifeman_/badges/large)](https://www.codewars.com/users/Knifeman_)
+<br><br>
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Tecnologías y herramientas</b>
 <table align="center">
   <tr>
     <td align="center" width="50%">
       <strong>🌐 Lenguajes</strong><br><br>
-      <img src="https://skillicons.dev/icons?i=html,css,js,ts&perline=5" /><br><br>
+      <img src="https://skillicons.dev/icons?i=html,css,js,ts,java&perline=5" /><br><br>
     </td>
     <td align="center" width="50%">
       <strong>⚛️ Frameworks y librerías</strong><br><br>
