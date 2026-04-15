@@ -16,37 +16,35 @@
   </a>
 </p>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Tecnologías y herramientas</b>
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODRpMzIwYXpkbXRweXZhbHVvY3YwZ2NoYmJ2M2N4MzZ3NXpuNmxxeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width ="30"><b> Tecnologías y herramientas</b>
 <table align="center">
   <tr>
-    <td align="center" width="50%">
-      <strong>🌐 Lenguajes</strong><br><br>
-      <img src="https://skillicons.dev/icons?i=html,css,js,ts,java&perline=5" /><br><br>
-    </td>
-    <td align="center" width="50%">
-      <strong>⚛️ Frameworks y librerías</strong><br><br>
-      <img src="https://skillicons.dev/icons?i=react,tailwind,redux,nextjs" /><br><br>
+    <td align="left"><strong>Lenguajes</strong></td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=html,css,js,ts,java,postgresql" height="50" />
     </td>
   </tr>
   <tr>
-    <td align="center" width="50%">
-      <strong>🧪 Testing</strong><br><br>
-      <img src="https://skillicons.dev/icons?i=jest" /><br><br>
+    <td align="left"><strong>Frameworks y librerías</strong></td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=react,tailwind,redux,nextjs" height="50" />
     </td>
-    <td align="center" width="50%">
-      <strong>🛠️ Herramientas</strong><br><br>
-      <img src="https://skillicons.dev/icons?i=git,nodejs,vscode,pnpm,bash,vite" /><br><br>
+  </tr>
+  <tr>
+    <td align="left"><strong>Herramientas</strong></td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=git,nodejs,vscode,pnpm,bash,vite" height="50" />
     </td>
   </tr>
 </table><br>
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Estadisticas de Github </b>
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Estadisticas de Github</b>
 <div align="center">
     <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Aaron-GF&theme=react&hide_border=true&show_icons=true&locale=es&border_radius=10" alt="GitHub Stats" />
     <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Aaron-GF&theme=react&hide_border=true&layout=compact" />
 </div><br>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Extra </b>
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="30"><b> Extra</b>
 
 <p align="center">
   <a href="https://www.codewars.com/users/Knifeman_">
@@ -54,7 +52,7 @@
   </a>
 </p>
 
-## <img src="./assets/quote-red.gif" width ="25"><b> Citas random</b>
+## <img src="./assets/quote-red.gif" width ="30"><b> Citas random</b>
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)<br><br>
 
 <p align="center">
