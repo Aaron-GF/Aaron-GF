@@ -47,23 +47,21 @@
 </div><br>
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="30"><b> Extras</b>
-
-<p align="center">
-  <a href="https://www.codewars.com/users/Knifeman_">
-    <img src="https://www.codewars.com/users/Knifeman_/badges/large" alt="Codewars Badge" />
-  </a>
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="left"><strong>CodeWars</strong></td>
+    <td align="centre">
+      <a href="https://www.codewars.com/users/Knifeman_">
+        <img src="https://www.codewars.com/users/Knifeman_/badges/large" alt="Codewars Badge" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## <img src="./assets/quote-red.gif" width ="30"><b> Citas random</b>
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)<br><br>
-
-<p align="center">
-  Hecho con 💚 por <a href="https://github.com/Aaron-GF">@Aaron-GF</a>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Aaron-GF/Aaron-GF/main/assets/bubble.gif" alt="Bubble animation" width="200" />
-</p>
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Citas Random" />
+</div>
 
 <!-- FOOTER -->
 <div align="center">
