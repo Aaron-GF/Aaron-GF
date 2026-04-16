@@ -1,4 +1,6 @@
-![Header](github-header-banner.png)<br>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1408d0,100:08c4d0&height=250&section=header&text=Aaron%20Garcia&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Desarrollador%20Web&descSize=20&descAlign=57&descAlignY=50&animation=fadeIn&width=1000" width="100%" alt="header" />
+</div>
 
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=Aaron-GF&abbreviated=true" width="120">
@@ -21,7 +23,7 @@
   <tr>
     <td align="left"><strong>Lenguajes</strong></td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=html,css,js,ts,java,postgresql" height="50" />
+      <img src="https://skillicons.dev/icons?i=html,css,js,ts,java" height="50" />
     </td>
   </tr>
   <tr>
@@ -33,7 +35,7 @@
   <tr>
     <td align="left"><strong>Herramientas</strong></td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=git,nodejs,vscode,pnpm,bash,vite" height="50" />
+      <img src="https://skillicons.dev/icons?i=git,nodejs,vscode,pnpm,bash,vite,postgresql" height="50" />
     </td>
   </tr>
 </table><br>
@@ -41,10 +43,10 @@
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Estadisticas de Github</b>
 <div align="center">
     <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Aaron-GF&theme=react&hide_border=true&show_icons=true&locale=es&border_radius=10" alt="GitHub Stats" />
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Aaron-GF&theme=react&hide_border=true&layout=compact" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Aaron-GF&theme=react&hide_border=true&layout=compact" alt="GitHub most used lenguages" />
 </div><br>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="30"><b> Extra</b>
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="30"><b> Extras</b>
 
 <p align="center">
   <a href="https://www.codewars.com/users/Knifeman_">
@@ -63,4 +65,10 @@
   <img src="https://raw.githubusercontent.com/Aaron-GF/Aaron-GF/main/assets/bubble.gif" alt="Bubble animation" width="200" />
 </p>
 
+<!-- FOOTER -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1408d0,50:0860d0,100:08c4d0&height=100&section=footer&width=1000" 
+  width="100%" 
+  alt="footer" />
+</div>
 
