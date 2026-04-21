@@ -56,6 +56,13 @@
       </a>
     </td>
   </tr>
+  <tr>
+    <td align="left"><strong>Language Rankings</strong></td>
+    <td align="center">
+      < ! -- START_CODEWARS -- >
+      < ! -- END_CODEWARS -- >
+      </td>
+  </tr>
 </table>
 
 ## <img src="./assets/quote-red.gif" width ="30"><b> Citas random</b>
