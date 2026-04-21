@@ -3,19 +3,21 @@ name: Actualización Quincenal CodeWars
 on:
   schedule:
     - cron: '0 0 1,15 * *'
-  workflow_dispatch: # Para testear
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout del repositorio
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 
 
       - name: Configurar Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4 
         with:
-          node-version: 18
+          node-version: 24 
 
       - name: Ejecutar script de actualización
         run: node update-codewars.js
@@ -25,5 +27,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "chore: actualización quincenal stats CodeWars" || echo "No hay cambios para subir"
+          # El '|| exit 0' evita que el proceso falle si no hay cambios que subir
+          git commit -m "chore: actualización quincenal stats CodeWars" || exit 0
           git push
