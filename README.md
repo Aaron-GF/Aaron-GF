@@ -59,10 +59,9 @@
   <tr>
     <td align="center" colspan="2">
       <br>
-      <img src="https://img.shields.io/badge/JavaScript-5_kyu_(349_puntos)-gray?style=flat-badge&logo=javascript&logoColor=%23F7DF1E&labelColor=%23323330" width="250" />
-      <img src="https://img.shields.io/badge/TypeScript-6_kyu_(84_puntos)-gray?style=flat-badge&logo=typescript&logoColor=white&labelColor=%23007ACC" width="250" /><br>
-      <img src="https://img.shields.io/badge/Java-6_kyu_(99_puntos)-gray?style=flat-badge&logo=openjdk&logoColor=white&labelColor=%23ED8B00" width="200" />
-      <img src="https://img.shields.io/badge/SQL-7_kyu_(35_puntos)-gray?style=flat-badge&logo=postgresql&logoColor=white&labelColor=%23316192" width="200" /><br>
+      <!-- CODEWARS_START -->
+      Cargando estadísticas...
+      <!-- CODEWARS_END -->
     </td>
   </tr>
 </table>
