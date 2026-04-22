@@ -50,7 +50,7 @@
 <table align="center" width="100%">
   <tr>
     <td align="center"><strong>CodeWars</strong></td>
-    <td align="centre">
+    <td align="center">
       <a href="https://www.codewars.com/users/Knifeman_">
         <img src="https://www.codewars.com/users/Knifeman_/badges/large" alt="Codewars Badge" />
       </a>
