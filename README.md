@@ -1,3 +1,11 @@
+
+
+      <ul>
+        <li><b>JS:</b> 5 kyu (349)</li>
+        <li><b>TS:</b> 6 kyu (84)</li>
+        <li><b>Java:</b> 6 kyu (99)</li>
+        <li><b>SQL:</b> 7 kyu (35)</li>
+      </ul>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1408d0,100:08c4d0&height=250&section=header&text=Aaron%20Garcia&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Desarrollador%20Web&descSize=20&descAlign=57&descAlignY=50&animation=fadeIn&width=1000" width="100%" alt="header" />
 </div>
