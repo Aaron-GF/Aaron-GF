@@ -60,13 +60,21 @@
     <td align="center" colspan="2">
       <br>
       <!-- CODEWARS_START -->
-<img src="https://img.shields.io/badge/javascript-5 kyu_(349_pts)-gray?style=flat-badge&logo=javascript&logoColor=white&labelColor=%23F7DF1E" />
-<img src="https://img.shields.io/badge/typescript-6 kyu_(84_pts)-gray?style=flat-badge&logo=typescript&logoColor=white&labelColor=%23007ACC" />
-<img src="https://img.shields.io/badge/sql-7 kyu_(35_pts)-gray?style=flat-badge&logo=postgresql&logoColor=white&labelColor=%23316192" />
-<img src="https://img.shields.io/badge/java-6 kyu_(99_pts)-gray?style=flat-badge&logo=openjdk&logoColor=white&labelColor=%23ED8B00" />
-<!-- CODEWARS_END -->
+      <img src="https://img.shields.io/badge/javascript-5 kyu_(349_pts)-gray?style=flat-badge&logo=javascript&logoColor=white&labelColor=%23F7DF1E" />
+      <img src="https://img.shields.io/badge/typescript-6 kyu_(84_pts)-gray?style=flat-badge&logo=typescript&logoColor=white&labelColor=%23007ACC" />
+      <img src="https://img.shields.io/badge/sql-7 kyu_(35_pts)-gray?style=flat-badge&logo=postgresql&logoColor=white&labelColor=%23316192" />
+      <img src="https://img.shields.io/badge/java-6 kyu_(99_pts)-gray?style=flat-badge&logo=openjdk&logoColor=white&labelColor=%23ED8B00" />
+      <!-- CODEWARS_END -->
+      <br><br>
     </td>
   </tr>
+  <tr>
+  <td align="center" colspan="2">
+    <!-- CODEWARS_EXTRA_START -->
+    Cargando datos...
+    <!-- CODEWARS_EXTRA_END -->
+  </td>
+</tr>
 </table>
 
 ## <img src="./assets/quote-red.gif" width ="30"><b> Citas random</b>
@@ -74,7 +82,6 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Citas Random" />
 </div>
 
-<!-- FOOTER -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1408d0,50:0860d0,100:08c4d0&height=100&section=footer&width=1000" 
   width="100%" 
