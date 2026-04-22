@@ -49,7 +49,7 @@
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="30"><b> Extras</b>
 <table align="center" width="100%">
   <tr>
-    <td align="left"><strong>CodeWars</strong></td>
+    <td align="center"><strong>CodeWars</strong></td>
     <td align="centre">
       <a href="https://www.codewars.com/users/Knifeman_">
         <img src="https://www.codewars.com/users/Knifeman_/badges/large" alt="Codewars Badge" />
@@ -58,9 +58,12 @@
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <!--START_CODEWARS-->
-      <!--END_CODEWARS-->
-      </td>
+      <br>
+      <img src="https://img.shields.io/badge/JavaScript-5_kyu_(349_puntos)-gray?style=flat-badge&logo=javascript&logoColor=%23F7DF1E&labelColor=%23323330" width="250" />
+      <img src="https://img.shields.io/badge/TypeScript-6_kyu_(84_puntos)-gray?style=flat-badge&logo=typescript&logoColor=white&labelColor=%23007ACC" width="250" /><br>
+      <img src="https://img.shields.io/badge/Java-6_kyu_(99_puntos)-gray?style=flat-badge&logo=openjdk&logoColor=white&labelColor=%23ED8B00" width="200" />
+      <img src="https://img.shields.io/badge/SQL-7_kyu_(35_puntos)-gray?style=flat-badge&logo=postgresql&logoColor=white&labelColor=%23316192" width="200" /><br>
+    </td>
   </tr>
 </table>
 
