@@ -1,5 +1,13 @@
 
 
+      <ul>
+        <li><b>JS:</b> 5 kyu (349)</li>
+        <li><b>TS:</b> 6 kyu (84)</li>
+        <li><b>Java:</b> 6 kyu (99)</li>
+        <li><b>SQL:</b> 7 kyu (35)</li>
+      </ul>
+
+
 | Lenguaje | Rango | Puntuación |
 | :--- | :--- | :--- |
 | **JavaScript** | 5 kyu | 349 |
