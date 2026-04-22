@@ -7,13 +7,12 @@ async function updateRankings() {
     const { javascript, typescript, java, sql } = data.ranks.languages;
 
     const newContent = `
-| Lenguaje | Rango | Puntuación |
-| :--- | :--- | :--- |
-| **JavaScript** | ${javascript.name} | ${javascript.score} |
-| **TypeScript** | ${typescript.name} | ${typescript.score} |
-| **Java** | ${java.name} | ${java.score} |
-| **SQL** | ${sql.name} | ${sql.score} |
-`;
+      <ul>
+        <li><b>JS:</b> ${javascript.name} (${javascript.score})</li>
+        <li><b>TS:</b> ${typescript.name} (${typescript.score})</li>
+        <li><b>Java:</b> ${java.name} (${java.score})</li>
+        <li><b>SQL:</b> ${sql.name} (${sql.score})</li>
+      </ul>`;
 
     let readme = fs.readFileSync('README.md', 'utf8');
 
