@@ -14,25 +14,21 @@ async function updateRankings() {
 | **Java** | ${java.name} | ${java.score} |
 | **SQL** | ${sql.name} | ${sql.score} |`;
 
-    const startTag = '';
-    const endTag = '';
-    
     let readme = fs.readFileSync('README.md', 'utf8');
 
-    if (readme.includes(startTag) && readme.includes(endTag)) {
-      
-      const regex = new RegExp(`${startTag}[\\s\\S]*?${endTag}`);
-      
-      const updatedReadme = readme.replace(regex, `${startTag}\n${newContent}\n${endTag}`);
+    const regex = /[\s\S]*?/g;
+
+    if (regex.test(readme)) {
+      const updatedReadme = readme.replace(regex, `\n${newContent}\n`);
       
       fs.writeFileSync('README.md', updatedReadme);
-      console.log('✅ ¡Éxito! README actualizado correctamente.');
+      console.log('✅ ¡POR FIN! README actualizado correctamente en su sitio.');
     } else {
-      throw new Error('No se encontraron las etiquetas y . Verifica que no tengan espacios internos.');
+      console.error('❌ ERROR: Sigo sin encontrar las etiquetas en tu README. Revisa que estén escritas correctamente.');
     }
 
   } catch (error) {
-    console.error('❌ ERROR PROTECTOR:', error.message);
+    console.error('❌ ERROR CRÍTICO:', error);
     process.exit(1);
   }
 }
