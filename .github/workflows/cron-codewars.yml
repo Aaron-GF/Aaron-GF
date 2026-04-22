@@ -1,4 +1,4 @@
-name: Actualización Quincenal CodeWars
+name: Update Codewars Stats
 
 on:
   schedule:
@@ -28,5 +28,5 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           # El '|| exit 0' evita que el proceso falle si no hay cambios que subir
-          git commit -m "chore: actualización quincenal stats CodeWars" || exit 0
+          git commit -m "chore: update codewars stats" || exit 0
           git push
