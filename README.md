@@ -60,19 +60,47 @@
     <td align="center" colspan="2">
       <br>
       <!-- CODEWARS_START -->
-      <img src="https://img.shields.io/badge/javascript-5 kyu_(349_pts)-gray?style=flat-badge&logo=javascript&logoColor=white&labelColor=%23F7DF1E" />
-      <img src="https://img.shields.io/badge/typescript-6 kyu_(84_pts)-gray?style=flat-badge&logo=typescript&logoColor=white&labelColor=%23007ACC" />
-      <img src="https://img.shields.io/badge/sql-7 kyu_(35_pts)-gray?style=flat-badge&logo=postgresql&logoColor=white&labelColor=%23316192" />
-      <img src="https://img.shields.io/badge/java-6 kyu_(99_pts)-gray?style=flat-badge&logo=openjdk&logoColor=white&labelColor=%23ED8B00" />
-      <!-- CODEWARS_END -->
+<img src="https://img.shields.io/badge/javascript-5 kyu_(349_pts)-gray?style=flat-badge&logo=javascript&logoColor=white&labelColor=%23F7DF1E" height="35" />
+<img src="https://img.shields.io/badge/java-6 kyu_(99_pts)-gray?style=flat-badge&logo=openjdk&logoColor=white&labelColor=%23ED8B00" height="35" />
+<img src="https://img.shields.io/badge/typescript-6 kyu_(84_pts)-gray?style=flat-badge&logo=typescript&logoColor=white&labelColor=%23007ACC" height="35" />
+<img src="https://img.shields.io/badge/sql-7 kyu_(35_pts)-gray?style=flat-badge&logo=postgresql&logoColor=white&labelColor=%23316192" height="35" />
+<!-- CODEWARS_END -->
       <br><br>
     </td>
   </tr>
   <tr>
   <td align="center" colspan="2">
     <!-- CODEWARS_EXTRA_START -->
-    Cargando datos...
-    <!-- CODEWARS_EXTRA_END -->
+
+<div align="center">
+  <span style="
+    background: linear-gradient(135deg, #1408d0, #08c4d0);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 4px;
+    display: inline-block;
+  ">
+    ✅ Katas: 212
+  </span>
+
+  <span style="
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 4px;
+    display: inline-block;
+  ">
+    🏆 Ranking: #103721
+  </span>
+</div>
+
+<!-- CODEWARS_EXTRA_END -->
   </td>
 </tr>
 </table>
