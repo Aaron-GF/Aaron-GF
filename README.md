@@ -1,3 +1,12 @@
+
+
+| Lenguaje | Rango | Puntuación |
+| :--- | :--- | :--- |
+| **JavaScript** | 5 kyu | 349 |
+| **TypeScript** | 6 kyu | 84 |
+| **Java** | 6 kyu | 99 |
+| **SQL** | 7 kyu | 35 |
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1408d0,100:08c4d0&height=250&section=header&text=Aaron%20Garcia&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Desarrollador%20Web&descSize=20&descAlign=57&descAlignY=50&animation=fadeIn&width=1000" width="100%" alt="header" />
 </div>
