@@ -60,8 +60,11 @@
     <td align="center" colspan="2">
       <br>
       <!-- CODEWARS_START -->
-      Cargando estadísticas...
-      <!-- CODEWARS_END -->
+<img src="https://img.shields.io/badge/javascript-5 kyu_(349_pts)-gray?style=flat-badge&logo=javascript&logoColor=white&labelColor=%23F7DF1E" />
+<img src="https://img.shields.io/badge/typescript-6 kyu_(84_pts)-gray?style=flat-badge&logo=typescript&logoColor=white&labelColor=%23007ACC" />
+<img src="https://img.shields.io/badge/sql-7 kyu_(35_pts)-gray?style=flat-badge&logo=postgresql&logoColor=white&labelColor=%23316192" />
+<img src="https://img.shields.io/badge/java-6 kyu_(99_pts)-gray?style=flat-badge&logo=openjdk&logoColor=white&labelColor=%23ED8B00" />
+<!-- CODEWARS_END -->
     </td>
   </tr>
 </table>
