@@ -7,33 +7,33 @@ async function updateRankings() {
     const { javascript, typescript, java, sql } = data.ranks.languages;
 
     const newContent = `
-| Lenguaje | Rango | Score |
+| Lenguaje | Rango | Puntuación |
 | :--- | :--- | :--- |
-| **JS** | ${javascript.name} | ${javascript.score} |
-| **TS** | ${typescript.name} | ${typescript.score} |
+| **JavaScript** | ${javascript.name} | ${javascript.score} |
+| **TypeScript** | ${typescript.name} | ${typescript.score} |
 | **Java** | ${java.name} | ${java.score} |
-| **SQL** | ${sql.name} | ${sql.score} |
-`;
-
-    let readme = fs.readFileSync('README.md', 'utf8');
+| **SQL** | ${sql.name} | ${sql.score} |`;
 
     const startTag = '';
     const endTag = '';
+    
+    let readme = fs.readFileSync('README.md', 'utf8');
 
     if (readme.includes(startTag) && readme.includes(endTag)) {
-      const parts = readme.split(startTag);
-      const top = parts[0] + startTag;
-      const bottom = parts[1].split(endTag)[1];
       
-      const updatedReadme = top + '\n' + newContent + '\n' + endTag + bottom;
+      const regex = new RegExp(`${startTag}[\\s\\S]*?${endTag}`);
+      
+      const updatedReadme = readme.replace(regex, `${startTag}\n${newContent}\n${endTag}`);
       
       fs.writeFileSync('README.md', updatedReadme);
-      console.log('✅ README actualizado con éxito.');
+      console.log('✅ ¡Éxito! README actualizado correctamente.');
     } else {
-      console.error('❌ Error: No se encontraron las etiquetas exactas. No se ha modificado nada.');
+      throw new Error('No se encontraron las etiquetas y . Verifica que no tengan espacios internos.');
     }
+
   } catch (error) {
-    console.error('❌ Error en la ejecución:', error);
+    console.error('❌ ERROR PROTECTOR:', error.message);
+    process.exit(1);
   }
 }
 
