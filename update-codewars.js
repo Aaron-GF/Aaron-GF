@@ -7,36 +7,33 @@ async function updateRankings() {
     const { javascript, typescript, java, sql } = data.ranks.languages;
 
     const newContent = `
-      <ul>
-        <li><b>JS:</b> ${javascript.name} (${javascript.score})</li>
-        <li><b>TS:</b> ${typescript.name} (${typescript.score})</li>
-        <li><b>Java:</b> ${java.name} (${java.score})</li>
-        <li><b>SQL:</b> ${sql.name} (${sql.score})</li>
-      </ul>`;
+| Lenguaje | Rango | Score |
+| :--- | :--- | :--- |
+| **JS** | ${javascript.name} | ${javascript.score} |
+| **TS** | ${typescript.name} | ${typescript.score} |
+| **Java** | ${java.name} | ${java.score} |
+| **SQL** | ${sql.name} | ${sql.score} |
+`;
 
     let readme = fs.readFileSync('README.md', 'utf8');
 
     const startTag = '';
     const endTag = '';
 
-    const startIndex = readme.indexOf(startTag);
-    const endIndex = readme.indexOf(endTag);
-
-    if (startIndex !== -1 && endIndex !== -1) {
-      const top = readme.substring(0, startIndex + startTag.length);
-      const bottom = readme.substring(endIndex);
+    if (readme.includes(startTag) && readme.includes(endTag)) {
+      const parts = readme.split(startTag);
+      const top = parts[0] + startTag;
+      const bottom = parts[1].split(endTag)[1];
       
-      const updatedReadme = top + '\n' + newContent + '\n' + bottom;
+      const updatedReadme = top + '\n' + newContent + '\n' + endTag + bottom;
       
       fs.writeFileSync('README.md', updatedReadme);
-      console.log('✅ El README ha sido actualizado con exito');
+      console.log('✅ README actualizado con éxito.');
     } else {
-      throw new Error('No se ha podido actualizar');
+      console.error('❌ Error: No se encontraron las etiquetas exactas. No se ha modificado nada.');
     }
-
   } catch (error) {
-    console.error('❌ ERROR:', error.message);
-    process.exit(1);
+    console.error('❌ Error en la ejecución:', error);
   }
 }
 
