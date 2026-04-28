@@ -60,10 +60,44 @@
     <td align="center" colspan="2">
       <br>
       <!-- CODEWARS_START -->
-<img src="https://img.shields.io/badge/javascript-5_kyu_(349_pts)-gray?style=flat&logo=" width="180" />
-<img src="https://img.shields.io/badge/typescript-6_kyu_(91_pts)-gray?style=flat&logo=" width="180" />
-<img src="https://img.shields.io/badge/sql-6_kyu_(77_pts)-gray?style=flat&logo=" width="180" />
-<img src="https://img.shields.io/badge/java-6_kyu_(128_pts)-gray?style=flat&logo=" width="180" />
+
+    <table align="center">
+      <tr>
+        
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=code" width="60"/>
+  <br>
+  <b>javascript</b>
+  <br>
+  5_kyu (349 pts)
+</td>
+
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=code" width="60"/>
+  <br>
+  <b>typescript</b>
+  <br>
+  6_kyu (91 pts)
+</td>
+
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=code" width="60"/>
+  <br>
+  <b>sql</b>
+  <br>
+  6_kyu (77 pts)
+</td>
+
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=code" width="60"/>
+  <br>
+  <b>java</b>
+  <br>
+  6_kyu (128 pts)
+</td>
+      </tr>
+    </table>
+  
 <!-- CODEWARS_END -->
       <br><br>
     </td>
@@ -72,10 +106,21 @@
   <td align="center" colspan="2">
     <!-- CODEWARS_EXTRA_START -->
 
-<p align="center">
-  <strong>✅ Total Katas:</strong> 246 &nbsp;&nbsp; | &nbsp;&nbsp;
-  <strong>🏆 Ranking:</strong> #71615
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>✅ Total Katas</b>
+      <br>
+      246
+    </td>
+
+    <td align="center">
+      <b>🏆 Ranking</b>
+      <br>
+      #71615
+    </td>
+  </tr>
+</table>
 
 <!-- CODEWARS_EXTRA_END -->
   </td>
