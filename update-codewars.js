@@ -60,17 +60,15 @@ async function updateReadme() {
   const ranking = data.leaderboardPosition;
   const rankingText = ranking ? `#${ranking}` : "N/A";
 
-  const extraInfo = `
-    <td align="center">
+  const extraInfo = 
+    `<td align="center">
       <b>✅ Total Katas</b><br>
       ${totalKatas}
     </td>
-
     <td align="center">
       <b>🏆 Ranking</b><br>
       ${rankingText}
-    </td>
-  `;
+    </td>`;
 
   let readme = fs.readFileSync("README.md", "utf-8");
 
