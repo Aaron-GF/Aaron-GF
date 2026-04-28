@@ -35,7 +35,7 @@ function generateCards(data) {
       const icon = icons[lang] || "code";
 
       return `
-<td align="center">
+<td align="center" width="25%">
   <img src="https://skillicons.dev/icons?i=${icon}" width="40"/><br>
   <b>${info.name}</b><br>${info.score} pts
 </td>`;
