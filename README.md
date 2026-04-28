@@ -59,22 +59,22 @@
   <tr>
       <!-- CODEWARS_START -->
 
-<td align="center">
+<td align="center" width="25%">
   <img src="https://skillicons.dev/icons?i=javascript" width="40"/><br>
   <b>5 kyu</b><br>349 pts
 </td>
 
-<td align="center">
+<td align="center" width="25%">
   <img src="https://skillicons.dev/icons?i=java" width="40"/><br>
   <b>6 kyu</b><br>128 pts
 </td>
 
-<td align="center">
+<td align="center" width="25%">
   <img src="https://skillicons.dev/icons?i=typescript" width="40"/><br>
   <b>6 kyu</b><br>91 pts
 </td>
 
-<td align="center">
+<td align="center" width="25%">
   <img src="https://skillicons.dev/icons?i=postgresql" width="40"/><br>
   <b>6 kyu</b><br>77 pts
 </td>
