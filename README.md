@@ -84,17 +84,14 @@
   </tr>
   <tr>
     <!-- CODEWARS_EXTRA_START -->
-
-    <td align="center">
+<td align="center">
       <b>✅ Total Katas</b><br>
       246
     </td>
-
     <td align="center">
       <b>🏆 Ranking</b><br>
       #71615
     </td>
-  
 <!-- CODEWARS_EXTRA_END --> 
 </tr>
 </table>
