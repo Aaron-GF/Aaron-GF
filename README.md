@@ -60,10 +60,10 @@
     <td align="center" colspan="2">
       <br>
       <!-- CODEWARS_START -->
-<img src="https://img.shields.io/badge/JavaScript-5 kyu_(349_pts)-gray?style=flat-badge&logo=javascript&logoColor=black&labelColor=%23F7DF1E" width="210" />
-<img src="https://img.shields.io/badge/Java-6 kyu_(99_pts)-gray?style=flat-badge&logo=openjdk&logoColor=white&labelColor=%23ED8B00" width="160" />
-<img src="https://img.shields.io/badge/TypeScript-6 kyu_(84_pts)-gray?style=flat-badge&logo=typescript&logoColor=white&labelColor=%23007ACC" width="200" />
-<img src="https://img.shields.io/badge/SQL-7 kyu_(35_pts)-gray?style=flat-badge&logo=postgresql&logoColor=white&labelColor=%23316192" width="160" />
+<img src="https://img.shields.io/badge/javascript-5 kyu_(349_pts)-gray?style=flat-badge" />
+<img src="https://img.shields.io/badge/typescript-6 kyu_(91_pts)-gray?style=flat-badge" />
+<img src="https://img.shields.io/badge/sql-6 kyu_(77_pts)-gray?style=flat-badge" />
+<img src="https://img.shields.io/badge/java-6 kyu_(128_pts)-gray?style=flat-badge" />
 <!-- CODEWARS_END -->
       <br><br>
     </td>
@@ -71,10 +71,12 @@
   <tr>
   <td align="center" colspan="2">
     <!-- CODEWARS_EXTRA_START -->
-    <p align="center">
-  <strong>✅ Total Katas:</strong> 212 &nbsp;&nbsp; | &nbsp;&nbsp;
-  <strong>🏆 Ranking:</strong> #103721
+
+<p align="center">
+  <strong>✅ Total Katas:</strong> 246 &nbsp;&nbsp; | &nbsp;&nbsp;
+  <strong>🏆 Ranking:</strong> #71615
 </p>
+
 <!-- CODEWARS_EXTRA_END -->
   </td>
 </tr>
