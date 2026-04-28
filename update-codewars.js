@@ -22,13 +22,23 @@ async function getCodewarsData() {
 function generateBadges(data) {
   const languages = data.ranks.languages;
 
+  const config = {
+    JavaScript: { logo: "javascript", width: 210 },
+    Java: { logo: "openjdk", width: 160 },
+    TypeScript: { logo: "typescript", width: 200 },
+    SQL: { logo: "postgresql", width: 160 },
+  };
+
   return Object.entries(languages)
     .map(([lang, info]) => {
-      const name = encodeURIComponent(lang);
-      const rank = info.name;
+      const cfg = config[lang] || { logo: "", width: 180 };
+      
+      const rank = info.name.replace(/\s+/g, "_");
       const score = info.score;
 
-      return `<img src="https://img.shields.io/badge/${name}-${rank}_(${score}_pts)-gray?style=flat-badge" />`;
+      const label = `${rank}_(${score}_pts)`;
+
+      return `<img src="https://img.shields.io/badge/${lang}-${label}-gray?style=flat&logo=${cfg.logo}" width="${cfg.width}" />`;
     })
     .join("\n");
 }
