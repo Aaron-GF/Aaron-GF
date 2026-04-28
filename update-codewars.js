@@ -70,20 +70,22 @@ async function updateReadme() {
   const rankingText = ranking ? `#${ranking}` : "N/A";
 
   const extraInfo = `
-    <table align="center">
-      <tr>
-        <td align="center">
-          <b>✅ Total Katas: </b>
-            ${totalKatas}
-        </td>
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>✅ Total Katas</b>
+      <br>
+      ${totalKatas}
+    </td>
 
-        <td align="center">
-          <b>🏆 Ranking: </b>
-            ${rankingText}
-        </td>
-      </tr>
-    </table>
-    `;
+    <td align="center">
+      <b>🏆 Ranking</b>
+      <br>
+      ${rankingText}
+    </td>
+  </tr>
+</table>
+`;
 
   let readme = fs.readFileSync("README.md", "utf-8");
 
@@ -94,7 +96,7 @@ async function updateReadme() {
   const updated = readme
     .replace(
       /<!-- CODEWARS_START -->([\s\S]*?)<!-- CODEWARS_END -->/,
-      `<!-- CODEWARS_START -->\n${badges}\n<!-- CODEWARS_END -->`
+      `<!-- CODEWARS_START -->\n${table}\n<!-- CODEWARS_END -->`
     )
     .replace(
       /<!-- CODEWARS_EXTRA_START -->([\s\S]*?)<!-- CODEWARS_EXTRA_END -->/,
