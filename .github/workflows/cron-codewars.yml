@@ -2,7 +2,7 @@ name: Update Codewars Stats
 
 on:
   schedule:
-    - cron: '0 0 1,15 * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
