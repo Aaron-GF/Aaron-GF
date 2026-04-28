@@ -61,11 +61,11 @@ async function updateReadme() {
   const rankingText = ranking ? `#${ranking}` : "N/A";
 
   const extraInfo = 
-    `<td align="center">
+    `<td align="center" colspan="2">
       <b>✅ Total Katas</b><br>
       ${totalKatas}
     </td>
-    <td align="center">
+    <td align="center" colspan="2">
       <b>🏆 Ranking</b><br>
       ${rankingText}
     </td>`;
