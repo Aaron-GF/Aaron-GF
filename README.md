@@ -50,80 +50,50 @@
 <table align="center" width="100%">
   <tr>
     <td align="center"><strong>CodeWars</strong></td>
-    <td align="center">
+    <td align="center" colspan="3">
       <a href="https://www.codewars.com/users/Knifeman_">
         <img src="https://www.codewars.com/users/Knifeman_/badges/large" alt="Codewars Badge" />
       </a>
     </td>
   </tr>
   <tr>
-    <td align="center" colspan="2">
-      <br>
-      <!-- CODEWARS_START -->
-
-    <table align="center">
-      <tr>
-        
+      <!-- CODEWARS_START -->       
 <td align="center">
-  <img src="https://skillicons.dev/icons?i=code" width="60"/>
-  <br>
-  <b>javascript</b>
-  <br>
+  <img src="https://skillicons.dev/icons?i=js" width="40"/><br>
   5_kyu (349 pts)
 </td>
 
 <td align="center">
-  <img src="https://skillicons.dev/icons?i=code" width="60"/>
-  <br>
-  <b>typescript</b>
-  <br>
+  <img src="https://skillicons.dev/icons?i=ts" width="40"/><br>
   6_kyu (91 pts)
 </td>
 
 <td align="center">
-  <img src="https://skillicons.dev/icons?i=code" width="60"/>
-  <br>
-  <b>sql</b>
-  <br>
+  <img src="https://skillicons.dev/icons?i=postgresql" width="40"/><br>
   6_kyu (77 pts)
 </td>
 
 <td align="center">
-  <img src="https://skillicons.dev/icons?i=code" width="60"/>
-  <br>
-  <b>java</b>
-  <br>
+  <img src="https://skillicons.dev/icons?i=java" width="40"/><br>
   6_kyu (128 pts)
 </td>
-      </tr>
-    </table>
-  
 <!-- CODEWARS_END -->
       <br><br>
     </td>
   </tr>
   <tr>
-  <td align="center" colspan="2">
     <!-- CODEWARS_EXTRA_START -->
-
-<table align="center">
-  <tr>
-    <td align="center">
+    <td align="center" colspan="2">
       <b>✅ Total Katas</b>
       <br>
       246
     </td>
-
-    <td align="center">
+    <td align="center" colspan="2">
       <b>🏆 Ranking</b>
       <br>
       #71615
     </td>
-  </tr>
-</table>
-
-<!-- CODEWARS_EXTRA_END -->
-  </td>
+<!-- CODEWARS_EXTRA_END --> 
 </tr>
 </table>
 
