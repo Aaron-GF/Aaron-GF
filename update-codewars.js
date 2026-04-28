@@ -19,26 +19,29 @@ async function getCodewarsData() {
 }
 
 // Genera badges
-function generateBadges(data) {
+function generateCards(data) {
   const languages = data.ranks.languages;
 
-  const config = {
-    JavaScript: { logo: "javascript", width: 210 },
-    Java: { logo: "openjdk", width: 160 },
-    TypeScript: { logo: "typescript", width: 200 },
-    SQL: { logo: "postgresql", width: 160 },
+  const icons = {
+    JavaScript: "javascript",
+    Java: "java",
+    TypeScript: "typescript",
+    SQL: "postgresql",
   };
 
   return Object.entries(languages)
     .map(([lang, info]) => {
-      const cfg = config[lang] || { logo: "", width: 180 };
-      
+      const icon = icons[lang] || "code";
       const rank = info.name.replace(/\s+/g, "_");
-      const score = info.score;
 
-      const label = `${rank}_(${score}_pts)`;
-
-      return `<img src="https://img.shields.io/badge/${lang}-${label}-gray?style=flat&logo=${cfg.logo}" width="${cfg.width}" />`;
+      return `
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=${icon}" width="60"/>
+  <br>
+  <b>${lang}</b>
+  <br>
+  ${rank} (${info.score} pts)
+</td>`;
     })
     .join("\n");
 }
@@ -54,18 +57,33 @@ async function updateReadme() {
     return;
   }
 
-  const badges = generateBadges(data);
+  const table = `
+    <table align="center">
+      <tr>
+        ${generateCards(data)}
+      </tr>
+    </table>
+  `;
 
   const totalKatas = data.codeChallenges.totalCompleted;
   const ranking = data.leaderboardPosition;
   const rankingText = ranking ? `#${ranking}` : "N/A";
 
   const extraInfo = `
-<p align="center">
-  <strong>✅ Total Katas:</strong> ${totalKatas} &nbsp;&nbsp; | &nbsp;&nbsp;
-  <strong>🏆 Ranking:</strong> ${rankingText}
-</p>
-`;
+    <table align="center">
+      <tr>
+        <td align="center">
+          <b>✅ Total Katas: </b>
+            ${totalKatas}
+        </td>
+
+        <td align="center">
+          <b>🏆 Ranking: </b>
+            ${rankingText}
+        </td>
+      </tr>
+    </table>
+    `;
 
   let readme = fs.readFileSync("README.md", "utf-8");
 
