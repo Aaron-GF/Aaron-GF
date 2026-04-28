@@ -57,25 +57,26 @@
     </td>
   </tr>
   <tr>
-      <!-- CODEWARS_START -->       
-<td align="center">
-  <img src="https://skillicons.dev/icons?i=js" width="40"/><br>
-  5_kyu (349 pts)
-</td>
+      <!-- CODEWARS_START -->
 
 <td align="center">
-  <img src="https://skillicons.dev/icons?i=ts" width="40"/><br>
-  6_kyu (91 pts)
-</td>
-
-<td align="center">
-  <img src="https://skillicons.dev/icons?i=postgresql" width="40"/><br>
-  6_kyu (77 pts)
+  <img src="https://skillicons.dev/icons?i=javascript" width="40"/><br>
+  <b>5 kyu</b><br>349 pts
 </td>
 
 <td align="center">
   <img src="https://skillicons.dev/icons?i=java" width="40"/><br>
-  6_kyu (128 pts)
+  <b>6 kyu</b><br>128 pts
+</td>
+
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=typescript" width="40"/><br>
+  <b>6 kyu</b><br>91 pts
+</td>
+
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=postgresql" width="40"/><br>
+  <b>6 kyu</b><br>77 pts
 </td>
 <!-- CODEWARS_END -->
       <br><br>
@@ -83,16 +84,17 @@
   </tr>
   <tr>
     <!-- CODEWARS_EXTRA_START -->
-    <td align="center" colspan="2">
-      <b>✅ Total Katas</b>
-      <br>
+
+    <td align="center">
+      <b>✅ Total Katas</b><br>
       246
     </td>
-    <td align="center" colspan="2">
-      <b>🏆 Ranking</b>
-      <br>
+
+    <td align="center">
+      <b>🏆 Ranking</b><br>
       #71615
     </td>
+  
 <!-- CODEWARS_EXTRA_END --> 
 </tr>
 </table>
