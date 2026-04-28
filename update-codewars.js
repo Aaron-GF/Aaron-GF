@@ -23,24 +23,21 @@ function generateCards(data) {
   const languages = data.ranks.languages;
 
   const icons = {
-    JavaScript: "javascript",
-    Java: "java",
-    TypeScript: "typescript",
-    SQL: "postgresql",
+    javascript: "javascript",
+    typescript: "typescript",
+    sql: "postgresql",
+    java: "java",
   };
 
   return Object.entries(languages)
+    .sort((a, b) => b[1].score - a[1].score)
     .map(([lang, info]) => {
       const icon = icons[lang] || "code";
-      const rank = info.name.replace(/\s+/g, "_");
 
       return `
 <td align="center">
-  <img src="https://skillicons.dev/icons?i=${icon}" width="60"/>
-  <br>
-  <b>${lang}</b>
-  <br>
-  ${rank} (${info.score} pts)
+  <img src="https://skillicons.dev/icons?i=${icon}" width="40"/><br>
+  <b>${info.name}</b><br>${info.score} pts
 </td>`;
     })
     .join("\n");
@@ -57,35 +54,23 @@ async function updateReadme() {
     return;
   }
 
-  const table = `
-    <table align="center">
-      <tr>
-        ${generateCards(data)}
-      </tr>
-    </table>
-  `;
+  const cards = generateCards(data);
 
   const totalKatas = data.codeChallenges.totalCompleted;
   const ranking = data.leaderboardPosition;
   const rankingText = ranking ? `#${ranking}` : "N/A";
 
   const extraInfo = `
-<table align="center">
-  <tr>
     <td align="center">
-      <b>✅ Total Katas</b>
-      <br>
+      <b>✅ Total Katas</b><br>
       ${totalKatas}
     </td>
 
     <td align="center">
-      <b>🏆 Ranking</b>
-      <br>
+      <b>🏆 Ranking</b><br>
       ${rankingText}
     </td>
-  </tr>
-</table>
-`;
+  `;
 
   let readme = fs.readFileSync("README.md", "utf-8");
 
@@ -96,7 +81,7 @@ async function updateReadme() {
   const updated = readme
     .replace(
       /<!-- CODEWARS_START -->([\s\S]*?)<!-- CODEWARS_END -->/,
-      `<!-- CODEWARS_START -->\n${table}\n<!-- CODEWARS_END -->`
+      `<!-- CODEWARS_START -->\n${cards}\n<!-- CODEWARS_END -->`
     )
     .replace(
       /<!-- CODEWARS_EXTRA_START -->([\s\S]*?)<!-- CODEWARS_EXTRA_END -->/,
