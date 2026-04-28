@@ -60,10 +60,10 @@
     <td align="center" colspan="2">
       <br>
       <!-- CODEWARS_START -->
-<img src="https://img.shields.io/badge/javascript-5 kyu_(349_pts)-gray?style=flat-badge" />
-<img src="https://img.shields.io/badge/typescript-6 kyu_(91_pts)-gray?style=flat-badge" />
-<img src="https://img.shields.io/badge/sql-6 kyu_(77_pts)-gray?style=flat-badge" />
-<img src="https://img.shields.io/badge/java-6 kyu_(128_pts)-gray?style=flat-badge" />
+<img src="https://img.shields.io/badge/javascript-5_kyu_(349_pts)-gray?style=flat&logo=" width="180" />
+<img src="https://img.shields.io/badge/typescript-6_kyu_(91_pts)-gray?style=flat&logo=" width="180" />
+<img src="https://img.shields.io/badge/sql-6_kyu_(77_pts)-gray?style=flat&logo=" width="180" />
+<img src="https://img.shields.io/badge/java-6_kyu_(128_pts)-gray?style=flat&logo=" width="180" />
 <!-- CODEWARS_END -->
       <br><br>
     </td>
