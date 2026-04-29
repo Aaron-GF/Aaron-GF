@@ -96,6 +96,22 @@
 </tr>
 </table>
 
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png" width="30" height="30">
+      <b>HackerRank</b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.hackerrank.com/aarongarcia567">
+        <img src="https://hackerrank-stats.vercel.app/api?username=aarongarcia567&theme=dark" />
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## <img src="./assets/quote-red.gif" width ="30"><b> Citas random</b>
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Citas Random" />
