@@ -21,8 +21,8 @@
 ## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODRpMzIwYXpkbXRweXZhbHVvY3YwZ2NoYmJ2M2N4MzZ3NXpuNmxxeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width ="30"><b> Tecnologías y herramientas</b>
 <table align="center">
   <tr>
-    <td align="left"><strong>Lenguajes</strong></td>
-    <td align="left">
+    <td width="250" align="left"><strong>Lenguajes</strong></td>
+    <td width="550" align="left">
       <img src="https://skillicons.dev/icons?i=html,css,js,ts,java" height="50" />
     </td>
   </tr>
@@ -47,10 +47,10 @@
 </div><br>
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="30"><b> Extras</b>
-<table align="center" width="100%">
+<table align="center">
   <tr>
-    <td align="center"><strong>CodeWars</strong></td>
-    <td align="center" colspan="3">
+    <td align="center" width="200"><strong>CodeWars</strong></td>
+    <td align="center" width="600" colspan="3">
       <a href="https://www.codewars.com/users/Knifeman_">
         <img src="https://www.codewars.com/users/Knifeman_/badges/large" alt="Codewars Badge" />
       </a>
@@ -94,12 +94,12 @@
     </td>
 <!-- CODEWARS_EXTRA_END --> 
 </tr>
-</table>
+</table><br>
 
 <table align="center">
   <tr>
-    <td>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png" width="30" height="30">
+    <td width="800" align="center">
+      <img src="assets/hackerrank-logo.png" width="30" height="30" align="center">
       <b>HackerRank</b>
     </td>
   </tr>
