@@ -90,7 +90,7 @@
     </td>
     <td align="center" colspan="2">
       <b>🏆 Ranking</b><br>
-      #70047
+      #70057
     </td>
 <!-- CODEWARS_EXTRA_END --> 
 </tr>
