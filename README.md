@@ -61,7 +61,7 @@
 
 <td align="center" width="25%">
   <img src="https://skillicons.dev/icons?i=javascript" width="40"/><br>
-  <b>5 kyu</b><br>351 pts
+  <b>5 kyu</b><br>361 pts
 </td>
 
 <td align="center" width="25%">
@@ -78,6 +78,11 @@
   <img src="https://skillicons.dev/icons?i=postgresql" width="40"/><br>
   <b>6 kyu</b><br>77 pts
 </td>
+
+<td align="center" width="25%">
+  <img src="https://skillicons.dev/icons?i=code" width="40"/><br>
+  <b>8 kyu</b><br>2 pts
+</td>
 <!-- CODEWARS_END -->
       <br><br>
     </td>
@@ -86,11 +91,11 @@
     <!-- CODEWARS_EXTRA_START -->
 <td align="center" colspan="2">
       <b>✅ Total Katas</b><br>
-      250
+      256
     </td>
     <td align="center" colspan="2">
       <b>🏆 Ranking</b><br>
-      #70143
+      #67908
     </td>
 <!-- CODEWARS_EXTRA_END --> 
 </tr>
