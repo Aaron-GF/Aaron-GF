@@ -78,11 +78,6 @@
   <img src="https://skillicons.dev/icons?i=postgresql" width="40"/><br>
   <b>6 kyu</b><br>77 pts
 </td>
-
-<td align="center" width="25%">
-  <img src="https://skillicons.dev/icons?i=code" width="40"/><br>
-  <b>8 kyu</b><br>2 pts
-</td>
 <!-- CODEWARS_END -->
       <br><br>
     </td>
@@ -111,7 +106,7 @@
   <tr>
     <td>
       <a href="https://www.hackerrank.com/aarongarcia567">
-        <img src="https://hackerrank-stats.vercel.app/api?username=aarongarcia567&theme=dark" />
+        <img src="https://hackerrank-stats.vercel.app/api?username=Aaron_GF&theme=dark" />
       </a>
     </td>
   </tr>
