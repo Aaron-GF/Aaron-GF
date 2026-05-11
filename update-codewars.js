@@ -30,6 +30,7 @@ function generateCards(data) {
   };
 
   return Object.entries(languages)
+    .filter(([lang]) => icons.hasOwnProperty(lang)) // filtra, solo muestra los lenguajes definidos en icons
     .sort((a, b) => b[1].score - a[1].score)
     .map(([lang, info]) => {
       const icon = icons[lang] || "code";
