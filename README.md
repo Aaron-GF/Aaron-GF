@@ -23,7 +23,7 @@
   <tr>
     <td width="250" align="left"><strong>Lenguajes</strong></td>
     <td width="550" align="left">
-      <img src="https://skillicons.dev/icons?i=html,css,js,ts,java" height="50" />
+      <img src="https://skillicons.dev/icons?i=ts,js,java,bash,css,html" height="50" />
     </td>
   </tr>
   <tr>
@@ -35,7 +35,7 @@
   <tr>
     <td align="left"><strong>Herramientas</strong></td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=git,nodejs,vscode,pnpm,bash,vite,postgresql" height="50" />
+      <img src="https://skillicons.dev/icons?i=git,nodejs,vscode,pnpm,vite,postgresql" height="50" />
     </td>
   </tr>
 </table><br>
@@ -61,17 +61,17 @@
 
 <td align="center" width="25%">
   <img src="https://skillicons.dev/icons?i=javascript" width="40"/><br>
-  <b>5 kyu</b><br>361 pts
+  <b>5 kyu</b><br>414 pts
 </td>
 
 <td align="center" width="25%">
   <img src="https://skillicons.dev/icons?i=java" width="40"/><br>
-  <b>6 kyu</b><br>136 pts
+  <b>6 kyu</b><br>166 pts
 </td>
 
 <td align="center" width="25%">
   <img src="https://skillicons.dev/icons?i=typescript" width="40"/><br>
-  <b>6 kyu</b><br>91 pts
+  <b>6 kyu</b><br>93 pts
 </td>
 
 <td align="center" width="25%">
@@ -86,11 +86,11 @@
     <!-- CODEWARS_EXTRA_START -->
 <td align="center" colspan="2">
       <b>✅ Total Katas</b><br>
-      256
+      290
     </td>
     <td align="center" colspan="2">
       <b>🏆 Ranking</b><br>
-      #67908
+      #57157
     </td>
 <!-- CODEWARS_EXTRA_END --> 
 </tr>
