@@ -35,7 +35,7 @@
   <tr>
     <td align="left"><strong>Herramientas</strong></td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=git,nodejs,vscode,pnpm,vite,postgresql" height="50" />
+      <img src="https://skillicons.dev/icons?i=git,nodejs,vscode,pnpm,vite,postgresql,aws" height="50" />
     </td>
   </tr>
 </table><br>
@@ -90,7 +90,7 @@
     </td>
     <td align="center" colspan="2">
       <b>🏆 Ranking</b><br>
-      #57209
+      #57485
     </td>
 <!-- CODEWARS_EXTRA_END --> 
 </tr>
@@ -107,6 +107,22 @@
     <td>
       <a href="https://www.hackerrank.com/aarongarcia567">
         <img src="https://hackerrank-stats.vercel.app/api?username=Aaron_GF&theme=dark" />
+      </a>
+    </td>
+  </tr>
+</table><br>
+
+<table align="center">
+  <tr>
+    <td width="800" align="center">
+      <img src="https://skillicons.dev/icons?i=aws" width="30" align="center" />
+      <b>Amazon Web Service</b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.credly.com/badges/8a0aa90a-0bae-4ed2-9852-ca160d0ce372/public_url">
+        <img src="https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="120" />
       </a>
     </td>
   </tr>
