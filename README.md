@@ -29,7 +29,7 @@
   <tr>
     <td align="left"><strong>Frameworks y librerías</strong></td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=react,tailwind,redux,nextjs" height="50" />
+      <img src="https://skillicons.dev/icons?i=react,tailwind,redux,nextjs,astro" height="50" />
     </td>
   </tr>
   <tr>
@@ -90,7 +90,7 @@
     </td>
     <td align="center" colspan="2">
       <b>🏆 Ranking</b><br>
-      #57677
+      #57782
     </td>
 <!-- CODEWARS_EXTRA_END --> 
 </tr>
