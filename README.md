@@ -29,7 +29,7 @@
   <tr>
     <td align="left"><strong>Frameworks y librerías</strong></td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=react,tailwind,redux,nextjs" height="50" />
+      <img src="https://skillicons.dev/icons?i=react,tailwind,redux,nextjs,astro" height="50" />
     </td>
   </tr>
   <tr>
@@ -66,7 +66,7 @@
 
 <td align="center" width="25%">
   <img src="https://skillicons.dev/icons?i=java" width="40"/><br>
-  <b>6 kyu</b><br>166 pts
+  <b>6 kyu</b><br>176 pts
 </td>
 
 <td align="center" width="25%">
@@ -86,11 +86,11 @@
     <!-- CODEWARS_EXTRA_START -->
 <td align="center" colspan="2">
       <b>✅ Total Katas</b><br>
-      290
+      295
     </td>
     <td align="center" colspan="2">
       <b>🏆 Ranking</b><br>
-      #57677
+      #56510
     </td>
 <!-- CODEWARS_EXTRA_END --> 
 </tr>
